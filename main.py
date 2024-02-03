@@ -1,5 +1,4 @@
 from art import logo
-print(logo)
 import os
 
 import random
@@ -17,6 +16,7 @@ password_on = True
 
 
 while password_on:
+    print(logo)
     password_list = []
 
     for char in range(1, nr_letters + 1):
